@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<purchaseOrder orderDate="2022-10-20">
+  <shipTo country="US">
+    <name>Alice Smith</name>
+    <street>123 Maple Street</street>
+    <city>Mill Valley</city>
+    <state>CA</state>
+    <zip>90952</zip>
+  </shipTo>
+  <billTo country="US">
+    <name>Robert Smith</name>
+    <street>8 Oak Avenue</street>
+    <city>Old Town</city>
+    <state>PA</state>
+    <zip>95819</zip>
+  </billTo>
+  <comment>Hurry, my lawn is going wild!</comment>
+  <items>
+    <item>
+      <quantity>1</quantity>
+      <U3Price>150</U3Price>
+      <productName>Lawnmover</productName>
+      <comment>Confirm this is electric</comment>
+    </item>
+    <item partNum="926-AA">
+      <productName>Lawnmover</productName>
+      <quantity>1</quantity>
+      <U3Price>40</U3Price>
+      <shipDate>2000-05-20</shipDate>
+    </item>
+  </items>
+</purchaseOrder>
